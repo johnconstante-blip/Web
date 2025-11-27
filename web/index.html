@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Solutions Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; 
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<!-- Header & Navigation -->
+    <header class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            
+            <a href="#" class="text-2xl font-bold text-indigo-600">
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                DevAgency
+            </a>
+            
+           
+            <nav class="hidden md:flex space-x-8">
+                <a href="#services" class="text-gray-600 hover:text-indigo-600 transition duration-300 font-medium">Services</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-indigo-600 transition duration-300 font-medium">Portfolio</a>
+                <a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300 font-medium">About Us</a>
+                <a href="#contact" class="px-4 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition duration-300 shadow-lg">Get Started</a>
+            </nav>
+            
+           
+            <button class="md:hidden p-2 text-gray-600 hover:text-indigo-600 transition duration-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main class="py-12">
+        
+       
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-20">
+            <div class="max-w-3xl mx-auto">
+                <h1 class="text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                    Build Your Digital Future.
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    We deliver high-impact web design, secure backend development, and scalable cloud solutions tailored for your growth.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#contact" class="px-8 py-3 text-lg font-semibold rounded-full bg-indigo-600 text-white hover:bg-indigo-700 transition duration-300 shadow-xl transform hover:scale-105">
+                        Start a Project
+                    </a>
+                    <a href="#portfolio" class="px-8 py-3 text-lg font-semibold rounded-full bg-white border border-gray-300 text-gray-800 hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                        View Work
+                    </a>
+                </div>
+            </div>
+            
+            <img src="https://placehold.co/1200x500/e0e7ff/4338ca?text=Modern+Web+Illustration" 
+                 alt="Digital illustration of a clean, modern web interface" 
+                 class="mt-12 w-full rounded-xl shadow-2xl border-4 border-white"
+                 onerror="this.onerror=null; this.src='https://placehold.co/1200x500/e0e7ff/4338ca?text=Modern+Web+Illustration';"
+            >
+        </section>
+
+    
+        <section id="services" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-10">Our Expertise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-t-4 border-indigo-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1v-3" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11V3M12 3L15 6M12 3L9 6" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Front-End Development</h3>
+                    <p class="text-gray-500">Building stunning, high-performance user interfaces with React, Angular, or clean HTML/Tailwind, ensuring perfect responsiveness.</p>
+                </div>
+                
+               
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-t-4 border-indigo-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Backend & API Services</h3>
+                    <p class="text-gray-500">Creating robust and scalable backend systems using ASP.NET Core, Node.js, and secure database architecture.</p>
+                </div>
+                
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition duration-300 border-t-4 border-indigo-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-indigo-600 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v14L9 19zM19 4v16M5 19v-4M9 16l-3-3" />
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Cloud Deployment</h3>
+                    <p class="text-gray-500">Seamless integration and deployment on Azure or AWS, ensuring high availability and optimized performance.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="bg-indigo-700 mt-20 py-16">
+            <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Ready to Transform Your Online Presence?</h2>
+                <p class="text-xl text-indigo-200 mb-8">
+                    Let's discuss your project goals and how we can achieve them together.
+                </p>
+                <a href="#contact" class="px-10 py-4 text-xl font-bold rounded-full bg-white text-indigo-700 hover:bg-gray-100 transition duration-300 shadow-2xl transform hover:scale-105 inline-block">
+                    Contact Our Team
+                </a>
+            </div>
+        </section>
+        
+    </main>
+
+    
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-lg font-medium mb-3">DevAgency &copy; 2025</p>
+            <div class="space-x-4 text-sm">
+                <a href="#" class="hover:text-indigo-400">Privacy Policy</a>
+                <a href="#" class="hover:text-indigo-400">Terms of Service</a>
+                <a href="#" class="hover:text-indigo-400">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+ 
+    <script>
+ 
+    </script>
+</body>
+</html>
